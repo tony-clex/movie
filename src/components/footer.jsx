@@ -106,9 +106,9 @@ export default function Footer() {
           <div className="sev">
             <h2>Download Our App</h2>
   
-            <img src="/images/apple.png" alt="apple" />
+            <img src="/assets/images/store.png" alt="apple" />
   
-            <img src="/images/image.png" alt="play" />
+            <img src="/assets/images/apple.png" alt="play" />
           </div>
           </div>
        

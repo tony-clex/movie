@@ -22,9 +22,18 @@ export default function Detail() {
           backgroundSize: "cover",
         }}
       >
-       
-       <p>{chosenMovie.overview}</p>
+       <div className="info">
+        <div className="pic">
+        <img className="mum" src="/assets/images/watch.png" alt="" />
+        <img className="num" src="/assets/images/click.png" alt="" />
+        </div>
+      {chosenMovie.overview}
       </div>
+       
+      </div>
+
+      
+
       <Topcasts/>
       <Action />
       <Romance />

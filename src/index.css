@@ -50,10 +50,11 @@ nav ul {
   padding: 0;
   list-style: none;
   display: flex;
-  width: 5pxpx;
+  width: 9000px;
   justify-content: right;
-  margin-left: 200px;
+  margin-left: 25px;
   padding: 15px;
+  border: 0;
 }
 
 #name {
@@ -65,8 +66,10 @@ input {
   width: 80%;
   height: 30px;
   background-color: transparent;
-  border-radius: 9%;
+  border-radius: 12px;
   justify-content: right;
+  padding-left: 8px;
+  border: 1px solid #333;
 }
 
 .box2 img {
@@ -274,4 +277,40 @@ footer {
 
 .cast h1 {
   color: white;
+}
+
+.logo-div {
+  padding: 10px;
+}
+
+.cast h1 {
+  margin-top: 150px;
+  margin-right: -20px;
+}
+
+.sev {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+ margin-top: 45px;
+  margin-right: -40px;
+  
+}
+
+.pic{
+  display: flex;
+  
+}
+
+.num {
+  width: 120px;
+  height: 40px;
+}
+
+.mum {
+  width: 160px;
+  height: 110px;
+  margin-top: -33px;
 }
