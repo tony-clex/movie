@@ -2,7 +2,7 @@ import Action from "../components/action";
 import Romance from "../components/romance";
 import Latestandtrending from "../components/LatestTrending";
 import Footer from "../components/footer";
-import Nav from "../components/Nav"
+import Nav from "../components/nav";
 import Topcasts from "../components/Topcast";
 import { useContext } from "react";
 import { MovieContext } from "../context/context";
